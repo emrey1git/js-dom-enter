@@ -1,0 +1,45 @@
+
+body{
+   display: flex;
+   justify-content:center ;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   gap:30px;
+   transform: scale(3);
+   background-color: burlywood;
+}
+html,
+body {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+}
+
+ .arttir {
+    background-color: rgb(23, 232, 23);
+}
+.azalt {
+    background-color: red;
+}
+.sayi {
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+   
+}
+button {
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        
+}
