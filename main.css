@@ -1,19 +1,37 @@
 
-body{
-   display: flex;
-   justify-content:center ;
-   align-items: center;
-   height: 100vh;
-   margin: 0;
-   gap:30px;
-   transform: scale(3);
-   background-color: burlywood;
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    overflow: hidden;
+}
+
+.oyun {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transform: scale(1.5);
 }
 html,
 body {
     overflow: hidden;
     height: 100%;
     margin: 0;
+}
+h2{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Roboto", serif;
+    margin-top: 90px;
 }
 
  .arttir {
